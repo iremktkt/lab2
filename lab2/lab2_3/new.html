@@ -1,0 +1,137 @@
+<!Doctype>
+<html>
+<head>
+<style>
+body{
+	background-color: #aac2cc;
+}
+h1{
+	color: #f1e1e6;
+}
+p{
+	color: black;
+	font-size: 15px;
+}
+.container{
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li{
+  padding-left: 20px;
+}
+
+header nav ul li a{
+  display: inline-block;
+  padding-top: 10px;
+  padding-left:10px;
+
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+.pasif {
+position relative;
+
+
+}
+
+header nav ul li:hover a,
+header nav ul li.aktif a{
+  background-color: #910a60;
+  color:white;
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+    
+      <ul>
+	  <center>
+        <p class ="pasif"><a href="https://www.yazilimbilisim.net/web/css/css-ornekleri/">Css Örnekleri</a></p>
+        
+		<p class="aktif" ><a href="">CSS</a></p>
+        <p><a href="https://www.mediaclick.com.tr/blog/css-nedir">CSS Nedir</a></p>
+		</center>
+      </ul>
+    
+  </header>
+ </div>
+
+	<h1>CSS Hakkında<h1>
+	
+	<p>
+		HTML bize metin biçimlendirme alanında çok geniş olanaklar sunar. CSS, uzun yazılışıyla Cascading Style Sheets, veya Türkçesiyle Stil şablonları ise bunu bir adım daha öteye götürür, bize sayfalarımız için global şablonlar hazırlama olanağı verdiği gibi, tek bir harfin stilini; yani renk, font, büyüklük gibi özelliklerini değiştirmek için de kullanılabilir. Bu tekniğin en önemli özelliği kullanımındaki bu esnekliğidir.
+
+Bir web sayfası içerisinde zaten estetik kuralları gereği yüzlerce renk ve font kullanmayız. Genelde birbiriyle uyumlu birkaç renk ve birkaç font kullanırız ki, bunları her sayfada ayrı ayrı tekrar belirtmek yerine CSS yardımıyla bir sefer tanımlayıp bütün web sayfamızda kullanabiliriz.Bu şekilde güncelleme yaparken de onlarca sayfayı değiştirmekten kurtuluruz.
+
+CSS kodları HTML kodlarının içine yazılırlar. Türüne göre body veya head bölümlerinde yer alabilirler. Bunların dışında harici CSS dosyaları oluşturulup bunlar gerektiğinde HTML belgesi içerisinde çağırılabilirler.
+
+Hemen hemen her konuda olduğu gibi CSS konusunda da Microsoft Internet Explorer ve Firefox farklı yorumlar ortaya koyarlar. Bu noktada her iki browser'ın da aynı/benzer yorumlayacağı kodlar yazmak en uygunudur.
+
+	<h2 font-color: #ffffff > LINK OZELLIKLERI</h2>		
+<p> 
+a: Linkin, sayfa açıldığında tıklanmadan veya ümleç üzerine getirilmeden önceki durumudur.<br>
+a:hover : Linkin imleç üzerine getirildiğindeki durumudur.<br>
+a:active : Linkin tıklandığı andaki durumudur.<br>
+a:visited : Linkin tıklandıktan sonraki durumudur.BİÇİMLENDİRME:<br>
+color: Linkin rengini belirler.<br>
+background-color: Linkin zemin rengini belirler.<br>
+background-image: Linkin zeminine resim ekler(Bu animated-gif de olabilir.)<br>
+text-decoration: Linkin altının,üstünün vs. çizgili olup olmayacağını belirler.<br>
+font-weight: Yazının kalınlık veya inceliğini belirler.<br>
+border: Linkin etrafına kenarlık ekler.<br>
+display: Linki içeren hücre , satır vb. istenilen alanın seçilmesini sağlar.<br>
+</p>
+
+<br>
+<h2 font-color: #ffffff > LISTE OZELLIKLERI</h2>	
+<p>
+disk: Liste biçiminin disk (içi dolu daire) şeklinde olmasını sağlar. <br>
+circle : Liste biçiminin çember şeklinde olmasını sağlar. <br>
+square : Liste biçiminin kare olmasını sağlar.<br>
+decimal : Liste biçiminin rakamlardan oluşmasını sağlar.<br>
+lower-roman : Liste biçiminin i,ii,iii gibi küçük roma rakamlarından oluşmasını sağlar.<br>
+upper-roman : Liste biçiminin I,II,II gibi büyük roma rakamlarından oluşmasını sağlar.<br>
+lower-alpha : Liste biçiminin a,b,c şeklinde küçük harf olmasını sağlar.<br>
+upper-alpha : Liste biçiminin A,B,C şeklinde büyük harf olmasını sağlar.<br>
+none : Listenin simgesiz olmasını sağlar.<br>
+inside : Listenin ikinci satırının en soldan başlamasını sağlar. <br>
+Outside : Listenin ikinci satırının ilk satır ile aynı yerden başlamasını sağlar. <br>
+list-style-image : Liste biçiminin resim olmasını sağlar.<br>
+<p>
+
+<br>
+<h2 font-color: #ffffff > KATMAN OZELLIKLERI</h2>
+<p>
+position: Katmanın yerinin belirlenmesini sağlar. <br>
+absolute: Katmanın yerinin pencere esas alınarak belirlenmesini sağlar.<br>
+relative: Katmanın yerinin bir önceki katman esas alınarak belirlenmesini sağlar.<br>
+static: Katmanın yerinin sabit olarak (Varsayılan olan sol üst köşe) belirlenmesini sağlar.<br>
+top: Katmanın üstten ne kadar aşağıda olması gerektiğini belirler.<br>
+left: Katmanın soldan ne kadar içeride olması gerektiğini belirler.<br>
+width: Katmanın genişliğinin ne kadar olacağını belirler.<br>
+height: Katmanın yüksekliğinin ne kadar olacağını belirler.<br>
+overflow: Katmanın belirtilen yükseklik ve genişliğe sığmayan kısmına ne olacağını belirler.<br>
+auto: Otomatik olarak belirlenir.<br>
+scroll: Kaydırma çubuğu ekleyerek görünmesini sağlar.<br>
+visible : Katmanı belirtilen boyutların dışına taşırarak sığmayan yerlerin görünmesini sağlar.<br>
+hidden: Sığmayan yerleri gizler.<br>
+visibility: Katmanın görünebilirlik ayarını yapar.<br>
+visible : Katmanın görünür olmasını sağlar.<br>
+hidden: Katmanı gizler.<br>
+z-index : Katmanların alttan üste doğru hangi sıra ile gösterileceğini belirler.1 değeri katmanın en altta olacağını belirtir.<br>
+<p>
+
+</body>
+</html>
